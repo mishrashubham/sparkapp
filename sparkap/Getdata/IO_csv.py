@@ -15,6 +15,7 @@ class IO_csv(object):
     def save(self,data,NTname,fields):
         
         NTuple=namedtuple(NTname,fields)
+        print NTuple
         if os.path.isfile('%s/%s.%s'%(self.filepath,self.filename,self.filesuffix)):
             f=open("%s/%s.%s"%(self.filepath,self.filename,self.filesuffix),"ab+")
             writer=csv.writer(f)
