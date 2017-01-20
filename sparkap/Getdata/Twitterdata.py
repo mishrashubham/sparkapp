@@ -39,8 +39,8 @@ if __name__=="__main__":
     t1=twitterapi()
     q="testt"
     p=t1.parserdata(q,10)
-    for i in p:
-        print i
+    for y in p:
+        print y
     
 
         
