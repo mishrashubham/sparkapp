@@ -37,7 +37,7 @@ class twitterapi(object):
             
 if __name__=="__main__":
     t1=twitterapi()
-    q="testt"
+    q="spark"
     p=t1.parserdata(q,10)
     for y in p:
         print y
