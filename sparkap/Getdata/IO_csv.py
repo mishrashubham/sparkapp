@@ -29,6 +29,7 @@ class IO_csv(object):
              
     def load(self,NTname,fields):
         NTuple=namedtuple(NTname,fields)
+        print NTuple
         f=open("%s/%s.%s"%(self.filepath,self.filename,self.filesuffix),"ab+")
         reader=csv.reader(f)
         for row in map(NTuple._make,reader):
