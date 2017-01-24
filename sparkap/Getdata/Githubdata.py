@@ -20,7 +20,7 @@ class githubapi(object):
         repos_apache=[repo.name for repo in self.user.get_repos()]
         #print repos_apache
         lang=self.repo.get_languages()
-        print len(lang)
+        print "languages",len(lang)
         stargazers=[s for s in self.repo.get_stargazers()]
         try:
           k=[stargazers[i].login for i in range(0,20)]
