@@ -1,4 +1,5 @@
-for(i=0;i<5;i++)
+def x=[]
+for(i=0;i<7;i++)
 {
      x[i]=i
 }
