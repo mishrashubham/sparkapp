@@ -1,4 +1,4 @@
-def x=["a","b"]
+def x=["a","c"]
 for(i=0;i<x.size();i++){
      x[i]="b"+x[i]
 }
