@@ -1,1 +1,0 @@
-['et-xmlfile', 'google-api-python-client', 'googleads', 'gspread', 'httplib2', 'jdcal', 'numpy', 'oauth2client', 'openpyxl', 'pandas', 'pkg-resources', 'psutil', 'pyasn1', 'pyasn1-modules', 'PyDrive', 'PySocks', 'python-dateutil', 'pytz', 'PyYAML', 'requests', 'rsa', 'simplejson', 'six', 'suds-jurko', 'uritemplate', 'xlrd', 'XlsxWriter', 'xmltodict']
