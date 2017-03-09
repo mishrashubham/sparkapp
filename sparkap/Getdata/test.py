@@ -1,4 +1,4 @@
 import os 
-print "hello world"
+print "hello testing"
 os.system("ls -lrth ~/homme/swati")
 os.system("ls -lrth")
