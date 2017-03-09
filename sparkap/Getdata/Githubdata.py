@@ -12,7 +12,7 @@ class githubapi(object):
        USER="%s"%user
        REPO="%s"%repo
        self.g=Github(ACCESS_TOKEN,per_page=100)
-       #print self.g
+       print self.g
        self.user=self.g.get_user(USER)
        self.repo=self.user.get_repo(REPO)
        

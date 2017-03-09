@@ -18,7 +18,7 @@ class twitterapi(object):
       
     def searchTwitter(self,q,max_res=10):
         search_results=self.api.GetSearch(q,count=10)
-        #print search_results
+        print search_results
         for i in search_results:
              print "%s\n"%i
         return search_results
@@ -37,7 +37,7 @@ class twitterapi(object):
             
 if __name__=="__main__":
     t1=twitterapi()
-    q="Apache Yarn"
+    q="Apache Hive"
     p=t1.parserdata(q,10)
     for y in p:
         print y

@@ -1,12 +1,11 @@
-def createGreeter = { name ->
-  return {
-    def day = 0
-    if (day == 0 || day == 6) {
-      println "Nice Weekend, $name"
-    } else {
-      println "Hello, $name"
-    }
-  }
+def x=[]
+for(i=0;i<9;i++)
+{
+     x[i]=i
 }
-def greetWorld = createGreeter("World")
-greetWorld()
+
+for(i=0;i<x.size();i++)
+{
+     println x[i]
+}
+
